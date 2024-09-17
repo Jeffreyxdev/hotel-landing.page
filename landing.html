@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand Sapphire</title>
+    <link rel="stylesheet" href="styles.css">
+ 
+   
+    <style>
+      /* Add media queries here */
+      @media only screen and (max-width: 1200px) {
+          /* Tablet and desktop styles */
+          .nav ul {
+              flex-direction: row;
+          }
+          .hero {
+              flex-direction: row;
+              align-items: center;
+
+          }
+          .image_section {
+              width: 80%;
+              margin: 0 auto;
+          }
+          .cards-wrapper {
+              flex-wrap: wrap;
+              justify-content: center;
+              display: -webkit-inline-box;
+              
+          }
+          .card1, .card2, .card3, .card4, .card5, .card6 {
+              justify-content: center;
+             
+              width: 45%;
+              margin: 20px;
+          }
+      }
+      @media only screen and (max-width: 850px) {
+          /* Mobile styles */
+          .nav ul {
+              flex-direction: row;
+          }
+          .hero {
+              flex-direction: column;
+              align-items: center;
+          }
+          .image_section {
+              width: 100%;
+              margin: 0 auto;
+          }
+          .cards-wrapper {
+              flex-wrap: wrap;
+              justify-content: center;
+              display: inline;
+          }
+          .card1, .card2, .card3, .card4, .card5, .card6{
+              width: 80%;
+              margin: 20px;
+              justify-content: center;
+          }
+          #about {
+              flex-direction: column;
+          }
+          #about p {
+              font-size: 18px;
+              margin-left: 0;
+              box-shadow: none;
+              width: 20%;
+              height: 20%;
+          }
+          #about img {
+              border-radius: 30px;
+              height: 250px;
+              width: 100%;
+              margin-left: 0;
+          }
+          .contact-section {
+              padding: 20px;
+          }
+          .contact-form {
+              width: 100%;
+          }
+          .form-group {
+              margin-bottom: 20px;
+          }
+          .submit-btn {
+              width: 100%;
+          }
+      }
+  </style>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="navbar">
+                
+                <ul class="menu-links">
+                    <li ><a href="#">Home</a></li>
+                    <li><a href="#explore">Explore</a></li>
+                    <li><a href="#reservations">Reservations</a></li>
+                    <li><a href="#about">About us</a></li> <br>
+                    
+                  
+                </ul>
+               
+        </div>
+        </nav>
+    </header>
+    <main >
+            <section class="hero">
+              
+             <img class="image_section" src="images/hero ed.jpg" alt="" style="width: 100%;">
+                  <h1 style="margin-left:14px ;">
+             
+                     Welcome to Sapphire!     
+                  </h1>
+                  <p>Your one stop to luxury</p>
+              </div>      
+          </section>
+          
+          
+            
+          </div>
+          <section style="margin-top: 100px; display: flex; align-items: center;">
+          
+            <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+              <img src="images/pexels-francesco-ungaro-96444.jpg" style="border-radius: 30px; height: 550px; width: 65%;margin-right: 40px; " alt="">
+  
+              <p style="font-size: 19px; box-shadow: 0 5em -1em black; width: 90%; margin-left: 5; padding: 20px; margin-bottom: 12px;">
+                We’re delighted to have you with us and can't wait to make your stay exceptional. 
+                At The Grand Sapphire, we blend luxury with comfort to create an unforgettable experience. 
+              <br>
+             
+              </p>
+            </div>
+           
+          </section>
+          <h3 id="explore" style="margin: 0 auto; text-align: center;  margin-top: 50px; font-size: 2rem;">Explore</h3>
+          <div style="color: black; border: 3px  chocolate solid; border-radius: 40px; width: 150px; margin: 0 auto; text-align: center;  margin-top: 0px;">
+          </div>
+          <section class="cards-wrapper">
+            
+              <div class="card-grid-space">
+                
+                <div class="num"></div>
+                <a class="card1" >
+                  <div> 
+                    
+                    <h1>Reception</h1>
+                    <p>Our Reception offers great customer service </p>
+                    <div class="date">22 July 2024</div>
+                    <div class="tags">
+                      <div class="tag">Port harcourt</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+              <div class="card-grid-space" >
+              
+                <div class="num"></div>
+                <a class="card2" >
+                  <div> 
+                    
+                    <h1>Resorts</h1>
+                    <p>One of the best Resorts within your area</p>
+                    <div class="date">22 July 2024</div>
+                    <div class="tags">
+                      <div class="tag">Port harcourt</div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+
+                
+            <div class="card-grid-space" >
+              
+              <div class="num"></div>
+              <a class="card3" >
+                <div> 
+                  
+                  <h1>Bars</h1>
+                  <p>Visit our exclusive bar</p>
+                  <div class="date">22 July 2024</div>
+                  <div class="tags">
+                    <div class="tag">Port harcourt</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+          
+
+          
+            <div class="card-grid-space" >
+              
+              <div class="num"></div>
+              <a class="card4" >
+                <div> 
+                  
+                  <h1>Rooms</h1>
+                  <p>our rooms has breath taking views across the sea</p>
+                  <div class="date">22 July 2024</div>
+                  <div class="tags">
+                    <div class="tag">Port harcourt</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-grid-space" >
+              
+              <div class="num"></div>
+              <a class="card5" >
+                <div> 
+                  
+                  <h1>Resturants</h1>
+                  <p>our foods and delicacy are well prep and divine</p>
+                  <div class="date">22 July 2024</div>
+                  <div class="tags">
+                    <div class="tag">Port harcourt</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+
+            <div class="card-grid-space" >
+              
+              <div class="num"></div>
+              <a class="card6" >
+                <div> 
+                  
+                  <h1>Pool</h1>
+                  <p>Relax and take a dip in our pool</p>
+                  <div class="date">22 July 2024</div>
+                  <div class="tags">
+                    <div class="tag">Port harcourt</div>
+                  </div>
+                </div>
+              </a>
+            </div>
+        </section>
+        <section class="">
+          <h3 id="reservations" style="margin: 0 auto; text-align: center;  margin-top: 50px; font-size: 2rem;">Reservations</h3>
+          <div style="color: black; border: 3px  chocolate solid; border-radius: 40px; width: 220px; margin: 0 auto; text-align: center;  margin-top: 0px;">
+          </div>
+          <img src="images/booking-form-template-1.jpg"  style="margin-left: 10px; margin-top: 20px; border-radius: 30px;"  width="96%">
+        </section>
+
+        <section style="margin-top: 100px; ; align-items: center;">
+          <h3 id="about" style="margin: 0 auto; text-align: center;  margin-top: 50px; font-size: 2rem;">About us</h3>
+          <div style="color: black; border: 3px  chocolate solid; border-radius: 40px; width: 150px; margin: 0 auto; text-align: center;  margin-bottom: 50px;">
+          </div>
+          <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+            <img src="images/try left.jpg" style="border-radius: 30px; height: 610px; width: 75%; margin-right: 20px; margin-top: 15px; margin-bottom: 10px;display: inline;" alt="">
+
+            <p style="font-size: 15px; box-shadow: 0 5em -1em black; width: 90%; margin-left: 5; padding: 20px; margin-bottom: 12px;">
+              where opulence meets unparalleled comfort in the heart of luxury. Our 5-star haven is not just a destination; it’s an experience crafted for those who seek the finest in life’s pleasures.
+
+            At The  Grand Sapphire, we believe that every guest deserves to be treated like royalty. Our meticulously designed rooms and suites blend sophisticated elegance with contemporary amenities, ensuring a stay that is both lavish and restful. From plush bedding and stunning views to state-of-the-art technology and personalized service, every detail is curated to exceed your highest expectations.
+            
+            Indulge in a culinary journey at our world-renowned restaurants, where award-winning chefs craft exquisite dishes using the freshest ingredients. Whether you’re savoring a gourmet meal in our elegant dining room or enjoying a casual bite at our chic lounge, each dining experience is designed to delight and inspire.
+            <br>
+           
+            </p>
+          </div>
+        </section>
+</main>
+<footer>
+  <div class="section_container">
+    <div class="footer_section" style="gap: 20px;">
+        <div class="footer_logo">
+            <a href="home.html">
+                
+                <h3>Grand Sapphire</h3>
+            </a>
+        </div>
+
+        <div class="useful_links" style="text-decoration: none; list-style: none; color: white; margin-right: 50px;">
+           
+            <ul >
+                <li><a href="#">Home</a></li>
+                <li><a href="#explore">Explore</a></li>
+                <li><a href="#reservations">Reservations</a></li>
+                <li><a href="#about">About us</a></li>
+                <li><a href="#contact"> Contact us</a></li>
+            </ul>
+        </div>
+
+        <div class="contact_us" id="contact" style="color: white; padding-left: 10px;">
+            <h3>Contact</h3>
+            <ul>
+                <li><i class="bx bx-current-location"></i><span>
+                    Portharcourt, <br>
+                    Riverstate, 
+                    Nigeria
+                </span></li>
+                <li><i class="bx bxs-phone-call"></i><span>
+                    +2348104121988
+                </span></li>
+                <li><i class="bx bxs-time-five"></i><span>
+                    Mon-Sun : 10:00 AM - 7:00 PM
+                </span></li>
+            </ul>
+        </div>
+
+        <div class="follow_us" style="color: white;">
+            <h3>Follow</h3>
+            <i class="bx bxl-facebook-circle"></i>
+            <i class="bx bxl-twitter"></i>
+            <i class="bx bxl-instagram-alt"></i>
+        </div>
+    </div>
+</div>
+</footer>
+    
+</body>
+</html>
